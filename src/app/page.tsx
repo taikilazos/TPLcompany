@@ -226,7 +226,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.footerInfo}>
-            <p>KvK: 98986244 | BTW: NL665125471B01 | IBAN: NL52 ABNA 0563 5264 59</p>
+            <p>KvK: 98986244 </p>
           </div>
         </div>
       </footer>
