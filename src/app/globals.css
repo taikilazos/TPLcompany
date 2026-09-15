@@ -7,10 +7,33 @@
   --rule: #191D23;
 }
 
+/* Extrude depth of the heading, animated on load */
+@property --depth {
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 1;
+}
+
+/* Extrude depth of the inline mark, animated in the intro */
+@property --k {
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 1;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+/* No scrolling while the intro plays */
+html:has([data-intro]) {
+  overflow: hidden;
 }
 
 html,
