@@ -1,12 +1,13 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Archivo, IBM_Plex_Sans } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const display = Archivo({ subsets: ['latin'], axes: ['wdth'], variable: '--font-display' })
+const body = IBM_Plex_Sans({ subsets: ['latin'], variable: '--font-body' })
 
 export const metadata: Metadata = {
-  title: 'TPL Company | AI-Powered Business Solutions',
-  description: 'Transform your business with TPL Company\'s cutting-edge AI solutions. B2B SaaS platform for automation, analytics, and content creation.',
+  title: 'TPL Company',
+  description: 'TPL Company is a one-person AI and machine learning engineering practice in Amsterdam: retrieval, NLP and LLM systems.',
 }
 
 export default function RootLayout({
@@ -15,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${display.variable} ${body.variable}`}>
+      <body>{children}</body>
     </html>
   )
 }
