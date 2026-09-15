@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" width="140" height="140" role="img" aria-label="TPL Company">
+  <title>TPL Company</title>
+  <defs>
+    <rect id="st" x="44" y="14" width="12" height="92"/>
+    <rect id="tb" x="14" y="14" width="84" height="12"/>
+    <rect id="lf" x="44" y="94" width="56" height="12"/>
+    <path id="bw" fill-rule="evenodd" d="M56 14 H66 A22 22 0 0 1 66 58 H56 Z M56 26 H66 A10 10 0 0 1 66 46 H56 Z"/>
+    <g id="m"><use href="#st"/><use href="#tb"/><use href="#bw"/><use href="#lf"/></g>
+  </defs>
+  <rect x="0" y="0" width="140" height="140" rx="20" fill="#0B0D10"/>
+  <g transform="translate(70,70) scale(0.78) translate(-70,-70)">
+   <g transform="translate(10.7,0.7) scale(1.05)"><g transform="skewX(-12)">
+    <use href="#m" fill="#AEEA00"/>
+   </g></g>
+  </g>
+</svg>

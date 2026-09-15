@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" width="140" height="140" role="img" aria-label="TPL Company">
+  <title>TPL Company</title>
+  <defs>
+    <rect id="st" x="44" y="14" width="12" height="92"/>
+    <rect id="tb" x="14" y="14" width="84" height="12"/>
+    <rect id="lf" x="44" y="94" width="56" height="12"/>
+    <path id="bw" fill-rule="evenodd" d="M56 14 H66 A22 22 0 0 1 66 58 H56 Z M56 26 H66 A10 10 0 0 1 66 46 H56 Z"/>
+    <g id="m"><use href="#st"/><use href="#tb"/><use href="#bw"/><use href="#lf"/></g>
+  </defs>
+  <rect x="0" y="0" width="140" height="140" rx="20" fill="#0B0D10"/>
+  <g transform="translate(70,70) scale(0.78) translate(-70,-70)">
+   <g transform="translate(10.7,0.7) scale(1.05)"><g transform="skewX(-12)">
+    <g fill="#587700">
+     <use href="#m" x="12.24" y="12.24"/>
+     <use href="#m" x="11.90" y="11.90"/>
+     <use href="#m" x="11.56" y="11.56"/>
+     <use href="#m" x="11.22" y="11.22"/>
+     <use href="#m" x="10.88" y="10.88"/>
+     <use href="#m" x="10.54" y="10.54"/>
+     <use href="#m" x="10.20" y="10.20"/>
+     <use href="#m" x="9.86" y="9.86"/>
+     <use href="#m" x="9.52" y="9.52"/>
+     <use href="#m" x="9.18" y="9.18"/>
+     <use href="#m" x="8.84" y="8.84"/>
+     <use href="#m" x="8.50" y="8.50"/>
+     <use href="#m" x="8.16" y="8.16"/>
+     <use href="#m" x="7.82" y="7.82"/>
+     <use href="#m" x="7.48" y="7.48"/>
+     <use href="#m" x="7.14" y="7.14"/>
+     <use href="#m" x="6.80" y="6.80"/>
+     <use href="#m" x="6.46" y="6.46"/>
+     <use href="#m" x="6.12" y="6.12"/>
+     <use href="#m" x="5.78" y="5.78"/>
+     <use href="#m" x="5.44" y="5.44"/>
+     <use href="#m" x="5.10" y="5.10"/>
+     <use href="#m" x="4.76" y="4.76"/>
+     <use href="#m" x="4.42" y="4.42"/>
+     <use href="#m" x="4.08" y="4.08"/>
+     <use href="#m" x="3.74" y="3.74"/>
+     <use href="#m" x="3.40" y="3.40"/>
+     <use href="#m" x="3.06" y="3.06"/>
+     <use href="#m" x="2.72" y="2.72"/>
+     <use href="#m" x="2.38" y="2.38"/>
+     <use href="#m" x="2.04" y="2.04"/>
+     <use href="#m" x="1.70" y="1.70"/>
+     <use href="#m" x="1.36" y="1.36"/>
+     <use href="#m" x="1.02" y="1.02"/>
+     <use href="#m" x="0.68" y="0.68"/>
+     <use href="#m" x="0.34" y="0.34"/>
+    </g>
+    <use href="#m" fill="#AEEA00"/>
+   </g></g>
+  </g>
+</svg>

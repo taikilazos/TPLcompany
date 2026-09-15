@@ -7,6 +7,7 @@ export default function Home() {
       <nav className={styles.nav}>
         <div className={`container ${styles.navContainer}`}>
           <div className={styles.logo}>
+            <img src="/tpl-mark.svg" alt="" className={styles.logoMark} width={36} height={36} />
             <span className="gradient-text">TPL</span> Company
           </div>
           <div className={styles.navLinks}>
@@ -190,6 +191,7 @@ export default function Home() {
           <div className={styles.footerContent}>
             <div className={styles.footerBrand}>
               <div className={styles.logo}>
+                <img src="/tpl-mark.svg" alt="" className={styles.logoMark} width={32} height={32} />
                 <span className="gradient-text">TPL</span> Company
               </div>
               <p>AI-powered solutions for modern enterprises.</p>
